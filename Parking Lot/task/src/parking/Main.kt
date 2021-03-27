@@ -8,7 +8,7 @@ data class Car(val registration: String, val color: String)
 
 fun main() {
     var spots: MutableList<Car?> = mutableListOf()
-
+//
     while (true) {
         val action = scanner.next()
         when (action) {
